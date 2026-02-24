@@ -216,16 +216,3 @@ li {
 #footer a:hover {
 	color:#009900;
 }
-.circle-image {
-  width: 200px; /* Set your desired diameter */
-  height: 200px;
-  overflow: hidden; /* Crops image to container */
-  border-radius: 50%; /* Creates the circle */
-  border: 5px solid #ccc; /* Optional: adds a border around the circle */
-}
-
-.circle-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensures image covers area without stretching */
-}
